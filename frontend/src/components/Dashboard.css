@@ -1,0 +1,57 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .summary-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .dashboard-charts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .chart-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .goal-section {
+    margin-bottom: 30px;
+  }
+  
+  .goal-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .goal-section li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-transaction {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

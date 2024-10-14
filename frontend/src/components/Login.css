@@ -1,0 +1,99 @@
+/* Login.css */
+
+/* Define uma margem zero e uma fonte padrão */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh; /* Faz o body ocupar a tela inteira */
+  }
+  
+  /* Centraliza o container de login vertical e horizontalmente */
+  .login-container {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    height: 100vh;  /* O container ocupa a altura total da tela */
+    background: linear-gradient(135deg, #001f3f 0%, #001a33 100%);  /* Gradiente azul marinho */
+  }
+  
+  /* Caixa de login com bordas arredondadas, sombra e largura máxima */
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Título centralizado com azul marinho */
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #001f3f;  /* Azul marinho */
+  }
+  
+  /* Grupos de entrada de formulário */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Estilos para as labels */
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para os inputs */
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Mudança de cor na borda quando o input está em foco (amarelo ouro) */
+  .input-group input:focus {
+    outline: none;
+    border-color: #FFD700;  /* Amarelo ouro */
+  }
+  
+  /* Botão de login com azul marinho e detalhes em amarelo ouro */
+  .login-button {
+    background-color: #001f3f;
+    color: #FFD700;  /* Texto em amarelo ouro */
+    border: 2px solid #FFD700;  /* Borda amarela ouro */
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão (azul mais escuro) */
+  .login-button:hover {
+    background-color: #001a33;
+  }
+  
+  /* Rodapé de login com links em amarelo ouro */
+  .login-footer {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para links no rodapé (amarelo ouro) */
+  .login-footer a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Efeito ao passar o mouse sobre os links */
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
